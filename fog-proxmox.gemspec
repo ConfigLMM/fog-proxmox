@@ -22,12 +22,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fog/proxmox/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fog-proxmox'
+  spec.name          = 'fog-proxmox-configlmm'
   spec.version       = Fog::Proxmox::VERSION
-  spec.authors       = ['Tristan Robert']
-  spec.email         = ['tristan.robert.44@gmail.com']
+  spec.authors       = ['ConfigLMM']
 
-  spec.summary       = "Module for the 'Fog' gem to support Proxmox VE"
+  spec.summary       = "Fork of fog-proxmox with few improvements"
   spec.description   = 'This library can be used as a module for `fog`.'
   spec.homepage      = 'https://github.com/fog/fog-proxmox'
   spec.license       = 'GPL-3.0'
