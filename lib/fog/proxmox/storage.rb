@@ -33,6 +33,8 @@ module Fog
       request :upload
       request :list_appliances
       request :download_appliance
+      request :create
+      request :list
 
       # Mock class
       class Mock
